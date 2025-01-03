@@ -66,7 +66,6 @@ fetch(earthquakeDataUrl)
         // Legend color-depth ranges
         for (let i = 0; i < depths.length; i++) {
             div.innerHTML +=
-              //`<i style="background: ${colors[i]}"></i> ${depths[i]}${depths[i + 1] ? `&ndash;${depths[i + 1]}<br>` : "+"}`;
               `<i style="background: ${colors[i]}; width: 18px; height: 18px; display: inline-block;"></i> ${depths[i]}${depths[i + 1] ? `&ndash;${depths[i + 1]}<br>` : "+"}`;
           }
     
